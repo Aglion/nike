@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/eb2a8518ca.js"></script>
+        <link rel="stylesheet" href="cart.css">
+        <title>Nike</title>
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/pngwing.com.png" width="125px">
+                        </a>
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a class="a" href="products.html">Продукты</a></li>
+                            <li><a class="a" href="#">Мужчины</a></li>
+                            <li><a class="a" href="#">Женщины</a></li>
+                            <li><a class="a" href="#">Дети</a></li>
+                            <li><a class="a" href="#">Новинки</a></li>
+                            <li><a class="a" href="account.html">Аккаунт</a></li>
+                        </ul>
+                    </nav>
+                    <a href="cart.html">
+                        <img src="img/cart.png">
+                    </a>
+                    <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+                </div>
+            </div>
+        </header>
+        <!-- End Header Section -->
+
+        <div class="small-container cart-page">
+            <table>
+                <tr>
+                    <th>Продукты</th>
+                    <th>Количество</th>
+                    <th>Итог</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="img/buy-1.jpg">
+                            <div>
+                                <p>Красная футболка с принтом</p>
+                                <small>Цена: $50.00</small>
+                                <br>
+                                <a href="">Удалить</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$50.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="img/buy-2.jpg">
+                            <div>
+                                <p>Красная футболка с принтом</p>
+                                <small>Цена: $75.00</small>
+                                <br>
+                                <a href="">Удалить</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$75.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="img/buy-3.jpg">
+                            <div>
+                                <p>Красная футболка с принтом</p>
+                                <small>Цена: $75.00</small>
+                                <br>
+                                <a href="">Удалить</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$75.00</td>
+                </tr>
+            </table>
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Итог</td>
+                        <td>$200.00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row-footer">
+                <div class="col">
+                    <img src="img/nike_PNG9.png" class="logo-footer">
+                    <p class="p-footer">
+                        Наша миссия - это то, что побуждает нас делать все возможное для расширения человеческого потенциала. Мы делаем это, создавая новаторские спортивные инновации, делая наши продукты более устойчивыми, создавая творческую и разнообразную глобальную команду и оказывая положительное влияние в сообществах, где мы живем и работаем.
+                    </p>
+                </div>
+                <div class="col">
+                    <h3>ПОМОЩЬ <div class="underline"><span></span></div></h3>
+                    <ul>
+                        <li><a href="">Статус заказа</a></li>
+                        <li><a href="">Доставка</a></li>
+                        <li><a href="">Возврат</a></li>
+                        <li><a href="">Способы оплаты</a></li>
+                        <li><a href="">Связаться с нами</a></li>
+                    </ul>
+                    </div>
+                <div class="col">
+                <h3>О NIKE <div class="underline"><span></span></div></h3>
+                <ul>
+                    <li><a href="">Новости</a></li>
+                    <li><a href="">Карьера</a></li>
+                    <li><a href="">Инвесторам</a></li>
+                    <li><a href="">Забота об окружающей среде</a></li>
+                </ul>
+                </div>
+                <div class="col">
+                    <h3>Письмо <div class="underline"><span></span></div></h3>
+                    <form>
+                        <i class="far fa-envelope"></i>
+                        <input type="email" placeholder="Введите свой email" required>
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                    <div class="social-icons">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-whatsapp"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+        <script src="main.js"></script>
+    </body>
+</html>
